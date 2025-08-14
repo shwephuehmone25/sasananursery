@@ -26,8 +26,8 @@ export const Contact = (props) => {
                 >
                   လှူဒါန်းရန်
                 </a>
-                <div style={{ position: "absolute", right: "20px", top: "50%", transform: "translateY(-50%)" }}>
-                  <img src="img/kpay.jpg" alt="Kpay QR" style={{ maxWidth: "200px", borderRadius: "10px" }} />
+                <div style={{ position: "absolute", right: "20px", top: "30%", transform: "translateY(-50%)" }}>
+                  <img src="img/kbz.png" alt="Kpay QR" style={{ maxWidth: "200px", borderRadius: "10px" }} />
                 </div>
               </div>
             </div>
