@@ -1,0 +1,94 @@
+{
+  "Header": {
+    "title": "သာသနာ့ပျိုးဥယျာဉ်ကျောင်းတိုက်",
+    "paragraph": "လှည်းကူးမြို့နယ် ရန်ကုန်တိုင်း‌ဒေသကြီး"
+  },
+  "About": {
+    "paragraph": "ယခုအခါ သာသနာသုံးရပ်မှ သာသနာ့တာဝန်ထမ်းဆောင်တော်မူသော သံဃာတော်တို့သည် ပဋိပတ္တိသာသနာနှင့်ပဋိဝေဓ သာသနာထမ်းဆောင်မှု လွန်စွာနည်းနေပြီဖြစ်၍ ကွယ်ပျောက်သည့်အခြေအနေသို့ ရောက်ရှိနေပြီဖြစ်သည်။ ပဋိယတ္တိသာသနာတော်အခြေခံရာတောရွာများ၌ သာမဏေများ အလွန့်အလွန်ရှားပါးနေပြီ။ မြို့ကြီးများ၌သာလျှင် သာမဏေများတွေ့ရတော့သည်။ ထိုသာမဏေများကိုလည်း သာသနာတော်၌ ဆက်လက်မြဲနိုင်မည်ဟု မခန့်မှန်းနိုင်တော့ပေ။ အင်တာနက်အတတ်ပညာများက လွန်စွာဖျက်ဆီးနေသည်။ လက်ရှိရှိနေသောသာမဏေငယ်များကိုပင် ကျောင်းထိုင်ဆရာတော်များက တင်းတင်းကြပ်ကြပ်...."
+  },
+  
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Aim": {
+    "paragraph": "သဲအင်းဂူတိုက်ခွဲ (၃၂) အောင်လံဆရာတော်ဘုရားကြီး၏ သာသနာ့ပျိုးဥယျာဥ်ကျောင်းတိုက် တည်ထောင်ခြင်းရည်ရွယ်ချက်မှာ သာသနာ့ပျိုးဥယျာဥ်ကျောင်းတိုက်ကို တည်ဆောက်ခြင်းဖြစ်ပြီး၊ သာသနာ့ပျိုးဥယျာဥ်ကျောင်းတိုက်တွင် သာသနာ့ပျိုးဥယျာဥ်များကို စိုက်ပျိုးခြင်း၊ ပညာရေးနှင့် သင်ကြားရေးလုပ်ငန်းများကို ဆောင်ရွက်ခြင်း၊ လူမှုရေးလုပ်ငန်းများကို လုပ်ဆောင်ခြင်းတို့ဖြင့် လူမှုဖွံ့ဖြိုးတိုးတက်မှုကို မြှင့်တင်ရန် ရည်ရွယ်သည်။",
+    "Why": [
+      "သာသနာတော် ပျက်စီးယိုယွင်းလာပုံ",
+      "စာသင်တိုက်များစွာ ပိတ်ထားရခြင်း",
+      "ကာမဂုဏ် လွှမ်းမိုးခြင်း",
+      "မိဘတို့၏ ဆင်းရဲနွမ်းပါးမှု"
+    ]
+  },
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "ရှင်စန္ဒနသာရ"
+    },
+    {
+      "img": "img/team/01.jpg",
+      "name": "ရှင်စန္ဒနသာရ"
+    },
+    {
+      "img": "img/team/01.jpg",
+      "name": "ရှင်စန္ဒနသာရ"
+    },
+    {
+      "img": "img/team/01.jpg",
+      "name": "ရှင်စန္ဒနသာရ"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "ဝန်ထမ်းများ ခေါ်ယူခြင်း",
+      "text": "ရန်ကုန်တိုင်းဒေသကြီး၊ လှည်းကူး မြို့နယ်ရှိ သာသနာ့ပျိုးဥယျာဥ် ဆောက်လုပ်ရေး စီမံကိန်းအတွက် အောက်ဖော်ပြပါ continue reading…"
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "ဝန်ထမ်းများ ခေါ်ယူခြင်း",
+      "text": "ရန်ကုန်တိုင်းဒေသကြီး၊ လှည်းကူး မြို့နယ်ရှိ သာသနာ့ပျိုးဥယျာဥ် ဆောက်လုပ်ရေး စီမံကိန်းအတွက် အောက်ဖော်ပြပါ continue reading…"
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "ဝန်ထမ်းများ ခေါ်ယူခြင်း",
+      "text": "ရန်ကုန်တိုင်းဒေသကြီး၊ လှည်းကူး မြို့နယ်ရှိ သာသနာ့ပျိုးဥယျာဥ် ဆောက်လုပ်ရေး စီမံကိန်းအတွက် အောက်ဖော်ပြပါ continue reading…"
+    }
+  ]
+}
