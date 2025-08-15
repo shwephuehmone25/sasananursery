@@ -16,18 +16,20 @@ export const Contact = (props) => {
           <div className="row">
             <div className="col-md-12 text-center">
               <div style={{ backgroundColor: "#5472D2", padding: "30px", borderRadius: "15px", color: "#fff", textAlign: "start", position: "relative" }}>
-                <p style={{ marginBottom: "20px" }}>
+                <h2 style={{ fontSize: "24px"}}>လှူဒါန်းနိုင်ပါသည်</h2>
+                <p style={{ marginBottom: "5px" }}>
                   သာသနာတည်တံ့နိုင်ရေးနှင့် သဲအင်းဂူဝိပဿနာဓမ္မရိပ်သာ၏ အထွေထွေပြုပြင်ထိန်းသိမ်းရေးလုပ်ငန်းများတွင်  <br /> သုံးစွဲရန်ရည်ရွယ်၍ “သာသနာ့ပျိုးဥယျာဉ် Android Application” ဖြင့် လစဉ်လှူဒါန်းနိုင်ပါသည်။
                 </p>
+
                 <a
-                  href="#features"
-                  className="btn btn-light btn-lg"
-                  style={{ borderRadius: "20px", padding: "10px 30px" }}
+                  href="#about"
+                  className="btn btn-custom btn-lg"
                 >
                   လှူဒါန်းရန်
-                </a>
+                </a>{" "}
+
                 <div style={{ position: "absolute", right: "20px", top: "30%", transform: "translateY(-50%)" }}>
-                  <img src="img/kbz.png" alt="Kpay QR" style={{ maxWidth: "200px", borderRadius: "10px" }} />
+                  <img src="img/kbz.png" alt="Kpay QR" style={{ maxWidth: "300px", borderRadius: "10px" }} />
                 </div>
               </div>
             </div>
