@@ -41,7 +41,7 @@ export const Aim = (props) => {
             </div>
           </div>
           <div className="col-xs-12 col-md-6">
-            <img src="img/about.jpg" className="img-responsive" alt="" />
+            <img src="https://sasananurserymonastery.com/wp-content/uploads/2019/09/Slider.jpg" className="img-responsive" alt="" />
           </div>
         </div>
       </div>
