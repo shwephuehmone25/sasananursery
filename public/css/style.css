@@ -218,6 +218,19 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
+#header,
+#header .intro,
+.slick-slider {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.slick-slide {
+  outline: none; 
+}
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
