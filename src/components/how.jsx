@@ -15,12 +15,7 @@ import {
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 
-const colors = [
-  "#fff4e5",
-  "#f9e5ff",
-  "#e5fff9",
-  "#e5f0ff",
-];
+const colors = ["#fff4e5", "#f9e5ff", "#e5fff9", "#e5f0ff"];
 
 const iconMap = {
   "fa fa-comments-o": faComments,
@@ -65,13 +60,15 @@ const AccordionDetails = styled(MuiAccordionDetails)(() => ({
 }));
 
 export default function How() {
-  const [expanded, setExpanded] = React.useState("panel0");
+  const [expanded, setExpanded] = React.useState(false);
 
   const handleChange = (panel) => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
   };
 
   const accordionData = data.How;
+  const leftItems = accordionData.filter((_, i) => i % 2 === 0);
+  const rightItems = accordionData.filter((_, i) => i % 2 !== 0);
 
   return (
     <div style={{ padding: "2rem", maxWidth: 900, margin: "0 auto" }}>
@@ -90,43 +87,72 @@ export default function How() {
         သာသနာကို မည်သို့တည်တံ့စေမည်နည်း
       </Typography>
 
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          gap: "1rem",
-          justifyContent: "space-between",
-        }}
-      >
-        {accordionData.map((item, index) => (
-          <Accordion
-            key={index}
-            expanded={expanded === `panel${index}`}
-            onChange={handleChange(`panel${index}`)}
-            sx={{
-              backgroundColor: colors[index % colors.length],
-              width: "48%", 
-              padding: "1rem",
-            }}
-          >
-            <AccordionSummary
-              aria-controls={`panel${index}d-content`}
-              id={`panel${index}d-header`}
-            >
-              <FontAwesomeIcon
-                icon={iconMap[item.icon]}
-                style={{ fontSize: "24px", color: "#5472d2" }}
-              />
-              <Typography component="span" sx={{ fontWeight: 600, fontSize: "18px" }}>
-                {item.title}
-              </Typography>
-            </AccordionSummary>
+      <div style={{ display: "flex", gap: "1rem" }}>
+        {/* Left column */}
+        <div style={{ flex: 1 }}>
+          {leftItems.map((item, index) => {
+            const panelId = `left-${index}`;
+            return (
+              <Accordion
+                key={panelId}
+                expanded={expanded === panelId}
+                onChange={handleChange(panelId)}
+                sx={{
+                  backgroundColor: colors[index % colors.length],
+                  padding: "1rem",
+                }}
+              >
+                <AccordionSummary>
+                  <FontAwesomeIcon
+                    icon={iconMap[item.icon]}
+                    style={{ fontSize: "24px", color: "#5472d2" }}
+                  />
+                  <Typography sx={{ fontWeight: 600, fontSize: "18px" }}>
+                    {item.title}
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography sx={{ fontWeight: 400, fontSize: "15px" }}>
+                    {item.text}
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+            );
+          })}
+        </div>
 
-            <AccordionDetails>
-              <Typography sx={{ fontWeight: 400, fontSize: "15px" }}>{item.text}</Typography>
-            </AccordionDetails>
-          </Accordion>
-        ))}
+        {/* Right column */}
+        <div style={{ flex: 1 }}>
+          {rightItems.map((item, index) => {
+            const panelId = `right-${index}`;
+            return (
+              <Accordion
+                key={panelId}
+                expanded={expanded === panelId}
+                onChange={handleChange(panelId)}
+                sx={{
+                  backgroundColor: colors[index % colors.length],
+                  padding: "1rem",
+                }}
+              >
+                <AccordionSummary>
+                  <FontAwesomeIcon
+                    icon={iconMap[item.icon]}
+                    style={{ fontSize: "24px", color: "#5472d2" }}
+                  />
+                  <Typography sx={{ fontWeight: 600, fontSize: "18px" }}>
+                    {item.title}
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography sx={{ fontWeight: 400, fontSize: "15px" }}>
+                    {item.text}
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
